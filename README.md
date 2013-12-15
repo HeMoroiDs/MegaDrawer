@@ -1,4 +1,4 @@
 MegaDrawer
 ==========
 
-Drawer dor the coop intro from Zuul &amp; HMD
+Drawer for the coop intro from Zuul &amp; HMD
