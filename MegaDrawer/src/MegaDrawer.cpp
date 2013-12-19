@@ -9,7 +9,9 @@
 #include <iostream>
 using namespace std;
 
+#include "Drawer.h"
+
 int main() {
-	cout << "!! hello world de merde !!!" << endl; // prints !! hello world de merde !!!
+	Drawer drawer;
 	return 0;
 }
