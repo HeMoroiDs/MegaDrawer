@@ -3,13 +3,15 @@
 // Author      : PJ
 // Version     :
 // Copyright   : CopyLeft
-// Description : Hello World in C++, Ansi-style
+// Description : Drawer in C++, Ansi-style
 //============================================================================
 
 #include <iostream>
 using namespace std;
 
+#include "Drawer.h"
+
 int main() {
-	cout << "!! hello world de merde !!!" << endl; // prints !! hello world de merde !!!
+	Drawer drawer;
 	return 0;
 }
