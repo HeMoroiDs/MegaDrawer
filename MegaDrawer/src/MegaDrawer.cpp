@@ -3,7 +3,7 @@
 // Author      : PJ
 // Version     :
 // Copyright   : CopyLeft
-// Description : Hello World in C++, Ansi-style
+// Description : Drawer in C++, Ansi-style
 //============================================================================
 
 #include <iostream>
