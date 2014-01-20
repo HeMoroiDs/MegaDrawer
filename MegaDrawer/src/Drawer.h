@@ -20,18 +20,19 @@ using namespace std;
 #define BRUSHW 32
 #define BRUSHH 32
 #define FPS 60
+#define NBINTERP 5
 
 class Drawer {
 private:
-	SDL_Surface *screen, *brush, *view;
-	SDL_Rect brushPos, viewPos;
+	SDL_Surface *screen, *brush0, *brush, *view;
+	SDL_Rect srcRect, destRect;
 	SDL_Event event;
 	void init();
 	void testEvent();
 	void displayBrush();
 	void pauseVBL();
 	int xPos, yPos, prevX, prevY, counter, prevCounter;
-	bool flag;
+	bool flag, lmb, rmb, flag2;
 public:
 	Drawer();
 	virtual ~Drawer();
